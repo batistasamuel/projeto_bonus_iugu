@@ -1,0 +1,7 @@
+example_job:
+  cron: "*/3 * * * *"
+  class: ExampleJob
+
+sample_job:
+  cron: "0 0 * * *"
+  class: "SampleJob"
